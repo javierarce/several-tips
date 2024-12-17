@@ -12,7 +12,7 @@ const FIGMA_FILE = process.env.FIGMA_FILE;
 const PAGES = process.env.PAGES && process.env.PAGES.split(",");
 
 const OPTIONS = {
-  format: "svg",
+  format: "jpg",
   use_pages_as_folders: true,
   get_background_color: true,
   get_comments: true,
